@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background: black;
+}
+header{
+    height: 50px;
+    background: aqua;
+    position: fixed;
+    z-index: 1;
+    width: 1550px;
+}
+#heading{
+    top: 5%;
+    left: 0%;
+    font-size: xx-large;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 10%;
+    position: relative;
+    
+}
+
+#list{
+    display: flex;
+    top: 0%;
+    right: 20%;
+    position: absolute;
+}
+.itm{
+    list-style: none;
+    
+}
+
+#home{
+    height: 800px;
+    width: 1550px;
+    background-image: linear-gradient(#005757,#005eb6);
+}
+#title{
+    top: 20%;
+    right:43.9%;
+    font-size: xx-large;
+    position: absolute;
+}
+
+#subtitle{
+    position: absolute;
+    right: 14.5%;
+    font-size: x-large;
+    top:25%;
+}
+.img1{
+    position: absolute;
+    top: 20%;
+    left:5%;
+    width:400px;
+    height:600px;
+    margin-right: 5%;
+    border-radius: 20px;
+ 
+}
+
+
+
+#about{
+    height: 800px;
+    width: 1550px;
+    background-image: linear-gradient(#005eb6,#005757);  
+}
+
+#title2{
+    position: absolute;
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 6%;
+}
+
+#description{
+    position: absolute;
+    font-size: x-large;
+    top:145%; 
+    left: 15%;
+}
+
+.img2{
+    position: absolute;
+    top: 120%;
+    right:5%;
+    width:400px;
+    height:600px;
+    margin-right: 5%;
+    border-radius: 20px;
+    
+}
+#projects{
+    height: 800px;
+    background-image: linear-gradient(#005757,#005eb6);
+    color: white;
+}
+
+#aud1{
+    display: flex;
+    align-items: center;
+    top: 20%;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 6%;
+}
+#aud2{
+    display: flex;
+    align-items: center;
+    top: 25%;
+    margin-left: 6%;
+    margin-top: 6%;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 6%;
+}
+#aud3{
+    display: flex;
+    align-items: center;
+    top: 50%;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 6%;
+}
+#aud4{
+    display: flex;
+    align-items: center;
+    top: 50%;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 6%;
+}
+#aud5{
+    display: flex;
+    align-items: center;
+    top: 80%;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 6%;
+}
+#aud6{
+    display: flex;
+    align-items: center;
+    top: 80%;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+
+@media screen and (max-width: 1350px) {
+    #home, #about, #projects {
+		flex-direction: column;
+	}
+    header {
+        display: flex;
+        width: 90%;
+        height: 10vh;
+        align-items: center;
+        margin-left: 5%;
+    }
+    #home {
+        display: flex;
+        min-height: 80vh;
+        align-items: center;
+    }
+
+
+    #img1 img{
+       display: none;
+    }
+    #title, #subtitle{
+	
+        align-items: center;
+        text-align: center;
+    }
+    #combined{
+	    width: 90%;
+	    margin-left: 5%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #about{
+        min-height: 80vh;
+        align-items: center;
+        height: 1500px;
+    }
+
+    #description{
+        align-items: center;
+        text-align: center;
+        margin-top: 425px;
+        right: 20%;
+    }
+}
